@@ -18,7 +18,7 @@ npm install korczivo-eslint-react --save-dev
 ```bash
 npm install korczivo-eslint-react --save-dev
 ```
-2. Create an .eslintrc.js or .eslintrc.json file in the root of your project and extend the configuration:
+2. Create an index.json or index.jsonon file in the root of your project and extend the configuration:
 ```JSON
 {
   "extends": "korczivo-eslint-react"
@@ -33,7 +33,7 @@ npx eslint .
 ### Customization
 
 
-This ESLint configuration is designed to be easily customizable to suit your project's specific needs. You can override or add rules by modifying your project's .eslintrc.js or .eslintrc.json file.
+This ESLint configuration is designed to be easily customizable to suit your project's specific needs. You can override or add rules by modifying your project's index.json or index.jsonon file.
 
 For more details on configuring ESLint, refer to the [ESLint Configuration Documentation](https://eslint.org/docs/latest/use/configure/).
 
